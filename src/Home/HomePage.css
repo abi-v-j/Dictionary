@@ -1,0 +1,44 @@
+.Homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .MainContainer {
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .inputBox {
+    width: 100%;
+    border-radius: 50px !important;
+    padding-left: 30px;
+  }
+  
+  @media (max-width: 600px) {
+    .MainContainer {
+      max-width: 100%;
+    }
+  
+    .inputBox {
+      padding-left: 15px;
+    }
+  
+    .Homepage {
+      padding: 10px;
+    }
+  
+    .textbox {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 960px) {
+    .MainContainer {
+      max-width: 80%;
+    }
+  }
+  

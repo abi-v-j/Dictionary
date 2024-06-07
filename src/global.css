@@ -1,0 +1,10 @@
+:root{
+    --bgPrimary:rgb(43, 38, 38);
+    --bgSecondary:black;
+    --textPrimary:white;
+}
+body{
+    background-color: var(--bgPrimary);
+    color: var(--textPrimary);
+
+}
